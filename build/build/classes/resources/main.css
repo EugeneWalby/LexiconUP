@@ -1,0 +1,131 @@
+
+#main_root {
+	 -fx-background-image: url("background1.jpg");
+     -fx-pref-height: 285;
+     -fx-pref-width: 380;
+}
+
+#additional_root {
+	-fx-background-image: url("background2.jpg");
+	-fx-font-family: "Verdana";
+	-fx-font-size: 18px;
+	-fx-pref-height: 260;
+	-fx-pref-width: 300;
+}
+
+#training_root {
+	-fx-background-image: url("background2.jpg");
+	-fx-pref-height: 230;
+	-fx-pref-width: 440;
+	-fx-font-family: "Verdana";
+	-fx-font-size: 18px;
+}
+
+#delete_root {
+	-fx-background-image: url("background2.jpg");
+	-fx-font-family: "Verdana";
+	-fx-font-size: 18px;
+	-fx-pref-height: 275;
+	-fx-pref-width: 500;
+}
+
+HBox, VBox {
+	-fx-alignment: center;	
+}
+
+#additional_vbox {
+	-fx-padding: 20 10 0 10;	
+}
+
+.button {
+	-fx-background-insets: 5;
+	-fx-background-color: linear-gradient(#f6ebbe, #e6c34d);
+    -fx-background-radius: 20;
+    -fx-min-height: 70;
+    -fx-min-width: 180;
+    
+    -fx-font-family: "Verdana";
+    -fx-font-size: 18px;
+    -fx-text-fill: #511c09;
+}
+
+#main_button_add_delete {
+	-fx-min-height: 50;
+}
+
+#additional_button {
+	-fx-background-color: 
+        #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230, 230, 230, 0) 50%);
+	-fx-background-radius: 30;
+	-fx-background-insets: 0, 1, 1;
+	-fx-text-fill: black;
+	-fx-effect: dropshadow( three-pass-box , rgba(0, 0, 0, 0.6) , 3, 0.0 , 0 , 1 );
+	-fx-min-height: 40;
+	-fx-min-width: 150;
+}
+
+#main_label_title {
+	-fx-text-fill: linear-gradient(#f6ebbe, #e6c34d);
+	-fx-font: 28px Verdana;
+	-fx-padding: 10 5 5 5;
+}
+
+#main_label_title .text {
+	-fx-font-weight: bold;
+}
+
+#main_label_slogan {
+	-fx-font: 20px Verdana;
+	-fx-padding: 0 5 15 5;
+	-fx-text-fill: #ffff50;
+}
+
+#status {
+	-fx-font-size: 16px;
+}
+
+#training_word_to_translate {
+	-fx-font-size: 26px;
+}
+
+.table-view {
+	-fx-max-height: 150;
+	-fx-border-color: #dddddd;
+	-fx-background-color: #eeeeee;
+}
+
+.table-column {
+	-fx-pref-width: 223;
+	-fx-font-size: 14px;
+}
+
+.table-view .table-cell {
+	-fx-border-color: #888888;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #bbeeff;
+}
+
+.filler, .column-header  {
+	-fx-background-color: #dddddd;
+	-fx-border-color: #888888;
+}
+
+.column-header .label {
+	-fx-text-fill: #0044ff;	
+}
+
+.table-row-cell {
+    -fx-background-color: #eeeeee;
+}
+
+.table-row-cell .text {
+	-fx-fill: #0044ff;
+}
+
+.table-row-cell .text:filled:selected {
+	-fx-fill: #ff3000;
+}
