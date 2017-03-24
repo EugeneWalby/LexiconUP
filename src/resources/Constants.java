@@ -46,7 +46,7 @@ public class Constants {
 	// strings
     public static final String SLOGAN = "Grow your vocabulary.";
     public static final String STATUS_OK = "Right!";		
-	public static final String STATUS_ERR = "Wrong!";		
+	public static final String STATUS_ERR = "Wrong! Correct word: ";		
 	public static final String FIELDS_ARE_EMPTY_STATUS = 
 								"Please, fill empty fields!";
 	public static final String INCORRECT_ENGLISH_WORD_STATUS = 

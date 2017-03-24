@@ -45,7 +45,8 @@ public class TrainRusEngWindow extends TrainingGeneralWindow {
 			updateWordStatus();
 			view.setStatusOK();
 		} else {
-			view.setStatusERR(Constants.STATUS_ERR);
+			view.setStatusERR(Constants.STATUS_ERR 
+								+ dbConnector.getEnglishWord());
 		}
 	}
 	
