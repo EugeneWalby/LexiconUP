@@ -53,9 +53,9 @@ public class AddWordsWindow extends EventHandlerClass {
 	}
 	
 	protected boolean isWordsTooLong() {
-		if (getEngWord().length() > 18) {
+		if (getEngWord().length() > 25) {
 			view.setStatusERR(Constants.LONG_ENGLISH_WORD_STATUS);
-		} else if (getRusWord().length() > 18) {
+		} else if (getRusWord().length() > 25) {
 			view.setStatusERR(Constants.LONG_RUSSIAN_WORD_STATUS);
 		} else {
 			return false;
