@@ -1,2 +1,3 @@
-# lexiconUP
-Application to grow your english lexicon (JavaFX + MySQL)
+# Lexicon UP!
+Application to grow your english lexicon.
+Developed on JavaFX & MySQL.
